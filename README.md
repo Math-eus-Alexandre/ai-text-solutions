@@ -18,6 +18,21 @@ Instale as dependências com:
 pip install -r requirements.txt
 ```
 
+## Configuração ⚙
+
+Para que os modelos da OpenAI funcionem corretamente, é necessário ter um arquivo chamado `my_key_openai.py` no diretório raiz do projeto, contendo sua chave da API da OpenAI.
+
+### Passos:
+
+1. Crie um arquivo chamado `my_key_openai.py` no diretório raiz do projeto.
+2. Defina sua chave da API na variável `my_key` dentro desse arquivo:
+
+```python
+my_key = "sua-chave-da-api-da-openai-aqui"
+```
+
+
+
 ## Contribuições 🤝
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests. 💌
 
@@ -43,6 +58,19 @@ Install dependencies with:
 
 ```bash
 pip install -r requirements.txt
+```
+
+## Setup ⚙
+
+In order for the OpenAI models to work correctly, you need a file named `my_key_openai.py` in the root directory of the project, containing your OpenAI API key.
+
+### Steps:
+
+1. Create a file named `my_key_openai.py` in the root directory of the project.
+2. Define your API key in the `my_key` variable inside that file:
+
+```python
+my_key = "your-openai-api-key-here"
 ```
 
 ## Contributions 🤝
